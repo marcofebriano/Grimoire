@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Grimoire'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Grimoire.'
+  s.version          = '1.0.0'
+  s.summary          = 'Basic Swift Dependency Injection Annotations'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Grimoire is Basic Dependency Injection with Annotations. Why the name is Grimoire? so this framework will make your instance like a magical instance, and Grimoire is a list of magical instances that you register before.
                        DESC
 
   s.homepage         = 'https://github.com/marcofebriano/Grimoire'
@@ -28,6 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/marcofebriano/Grimoire.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_version = '5.1'
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'Grimoire/Classes/**/*'
