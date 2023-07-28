@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Grimoire'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'Basic Swift Dependency Injection Annotations'
 
 # This description is used to generate tags and improve search results.
@@ -24,14 +24,14 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/marcofebriano/Grimoire'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'marcofebriano' => 'marco.ramadhani@gojek.com' }
+  s.author           = { 'marcofebriano' => 'febrianomarco@gmail.com' }
   s.source           = { :git => 'https://github.com/marcofebriano/Grimoire.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version = '5.1'
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Grimoire/Classes/**/*'
+  s.source_files = 'Sources/**/*.swift'
   
   # s.resource_bundles = {
   #   'Grimoire' => ['Grimoire/Assets/*.png']

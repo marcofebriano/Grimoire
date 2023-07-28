@@ -1,0 +1,6 @@
+framework module Pods_Grimoire_Example {
+  umbrella header "Pods-Grimoire_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

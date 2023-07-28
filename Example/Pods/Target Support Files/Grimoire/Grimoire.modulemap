@@ -1,0 +1,6 @@
+framework module Grimoire {
+  umbrella header "Grimoire-umbrella.h"
+
+  export *
+  module * { export * }
+}

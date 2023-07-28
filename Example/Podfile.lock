@@ -1,0 +1,16 @@
+PODS:
+  - Grimoire (1.1.0)
+
+DEPENDENCIES:
+  - Grimoire (from `../`)
+
+EXTERNAL SOURCES:
+  Grimoire:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Grimoire: c4bb42a3a858539db97a6c39d0109120ac22636c
+
+PODFILE CHECKSUM: 42d30725709ffc482c210be09af175281dc555a8
+
+COCOAPODS: 1.11.3

@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/Grimoire.svg?style=flat)](https://cocoapods.org/pods/Grimoire)
 [![License](https://img.shields.io/cocoapods/l/Grimoire.svg?style=flat)](https://cocoapods.org/pods/Grimoire)
 [![Platform](https://img.shields.io/cocoapods/p/Grimoire.svg?style=flat)](https://cocoapods.org/pods/Grimoire)
+[![SwiftPM Compatible](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen)](https://swift.org/package-manager/)
 
 ## Example
 
@@ -20,9 +21,24 @@ it, simply add the following line to your Podfile:
 pod 'Grimoire'
 ```
 
+```swift
+dependencies: [
+    .package(url: "https://github.com/marcofebriano/Grimoire.git", .upToNextMajor(from: "1.0.0"))
+]
+```
+
+Use it in your target as `Grimoire`
+
+```swift
+ .target(
+    name: "yourModule",
+    dependencies: ["Grimoire"]
+)
+```
+
 ## Author
 
-marcofebriano, marco.ramadhani@gojek.com
+marcofebriano, febrianomarco@gmail.com
 
 ## License
 
