@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        registerInstance()
         let intanceC = InstanceC()
         intanceC.printValue()
         
@@ -23,17 +22,6 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    func registerInstance() {
-        let grimoire = Grimoire.open
-        grimoire
-            .registerSingleton(for: ProA.self, with: InstanceA())
-            .registerSingleton(for: ProB.self) {
-                let instance = InstanceB()
-                instance.stringB = "new value of stringB"
-                return instance
-            }
     }
 
 }

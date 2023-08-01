@@ -7,6 +7,6 @@
 
 import Foundation
 
-public func autoInject<T>(of anyType: T.Type = T.self) -> T {
+public func magicalInject<T>(of anyType: T.Type = T.self) -> T {
     return Grimoire.open.resolve(anyType)
 }

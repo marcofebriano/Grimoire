@@ -9,18 +9,11 @@ import Foundation
 
 /// wrapper for get instance of given types
 @propertyWrapper
-public struct MagicalInstance<T> {
+public class MagicalInstance<T> {
     
     var container = Grimoire.open
     
-    private var value: T
+    public lazy var wrappedValue: T = container.resolve(T.self)
     
-    public var wrappedValue: T {
-        get { return value }
-        set { value = newValue }
-    }
-    
-    public init() {
-        self.value = container.resolve(T.self)
-    }
+    public init() { }
 }

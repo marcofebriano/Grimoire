@@ -35,65 +35,65 @@ public class Grimoire {
     }
 }
 
-// MARK: - singleton
+// MARK: - Register Singular
 extension Grimoire {
     
     @discardableResult
-    public func registerSingleton<T>(for anyType: T.Type, with instance: @autoclosure @escaping () -> T) -> Self {
-        registerSingleton(for: anyType, instance)
+    public func registerSingular<T>(for anyType: T.Type, with instance: @autoclosure @escaping () -> T) -> Self {
+        registerSingular(for: anyType, instance)
         return self
     }
     
     @discardableResult
-    public func registerSingleton<T>(for anyTypes: [T.Type], with instance: @autoclosure @escaping () -> T) -> Self {
-        registerSingleton(for: anyTypes, instance)
+    public func registerSingular<T>(for anyTypes: [T.Type], with instance: @autoclosure @escaping () -> T) -> Self {
+        registerSingular(for: anyTypes, instance)
         return self
     }
     
     @discardableResult
-    public func registerSingleton<T>(for anyType: T.Type, _ instance: @escaping () -> T) -> Self {
+    public func registerSingular<T>(for anyType: T.Type, _ instance: @escaping () -> T) -> Self {
         let key = String(describing: anyType.self)
-        mappedInstance[key] = InstanceSingleton(resolver: instance)
+        mappedInstance[key] = SingularInstance(resolver: instance)
         return self
     }
     
     @discardableResult
-    public func registerSingleton<T>(for anyTypes: [T.Type], _ instance: @escaping () -> T) -> Self {
+    public func registerSingular<T>(for anyTypes: [T.Type], _ instance: @escaping () -> T) -> Self {
         anyTypes.forEach {
             let key = String(describing: $0.self)
-            mappedInstance[key] = InstanceSingleton(resolver: instance)
+            mappedInstance[key] = SingularInstance(resolver: instance)
         }
         return self
     }
 }
 
-// MARK: - Transient
+// MARK: - Register Shadow
 extension Grimoire {
     
     @discardableResult
-    public func registerTransient<T>(for anyType: T.Type, with instance: @autoclosure @escaping () -> T) -> Self {
-        registerTransient(for: anyType, instance)
+    public func registerShadow<T>(for anyType: T.Type, with instance: @autoclosure @escaping () -> T) -> Self {
+        registerShadow(for: anyType, instance)
         return self
     }
     
     @discardableResult
-    public func registerTransient<T>(for anyTypes: [T.Type], with instance: @autoclosure @escaping () -> T) -> Self {
-        registerTransient(for: anyTypes, instance)
+    public func registerShadow<T>(for anyTypes: [T.Type], with instance: @autoclosure @escaping () -> T) -> Self {
+        registerShadow(for: anyTypes, instance)
         return self
     }
     
     @discardableResult
-    public func registerTransient<T>(for anyType: T.Type, _ instance: @escaping () -> T) -> Self {
+    public func registerShadow<T>(for anyType: T.Type, _ instance: @escaping () -> T) -> Self {
         let key = String(describing: anyType.self)
-        mappedInstance[key] = InstanceTransient(resolver: instance)
+        mappedInstance[key] = ShadowInstance(resolver: instance)
         return self
     }
     
     @discardableResult
-    public func registerTransient<T>(for anyTypes: [T.Type], _ instance: @escaping () -> T) -> Self {
+    public func registerShadow<T>(for anyTypes: [T.Type], _ instance: @escaping () -> T) -> Self {
         anyTypes.forEach {
             let key = String(describing: $0.self)
-            mappedInstance[key] = InstanceTransient(resolver: instance)
+            mappedInstance[key] = ShadowInstance(resolver: instance)
         }
         return self
     }

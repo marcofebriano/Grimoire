@@ -6,12 +6,6 @@
 [![Platform](https://img.shields.io/cocoapods/p/Grimoire.svg?style=flat)](https://cocoapods.org/pods/Grimoire)
 [![SwiftPM Compatible](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen)](https://swift.org/package-manager/)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
 ## Installation
 
 Grimoire is available through [CocoaPods](https://cocoapods.org). To install
@@ -43,3 +37,64 @@ marcofebriano, febrianomarco@gmail.com
 ## License
 
 Grimoire is available under the MIT license. See the LICENSE file for more info.
+
+---
+
+## Usage
+
+### First Step
+```swift
+import Grimoire
+```
+
+### Second Step
+you should register all dependencies that you will use later
+
+**Register Singular:**
+- this is how you should register your Instance or Dependency that will treat as **Singleton Instance**.
+```swift
+        Grimoire.open.registerSingular(for: Instance.self, with: InstanceA())
+```
+
+**Register Shadow:**
+- this method will treat your Instance always in shadow. and always recreate whenever you need.
+```swift
+        Grimoire.open.registerShadow(for: InsB.self, with: InstanceB())
+```
+
+### Usage Step
+after you register all Intance/dependencies that you need, then here's how you can call you Instance or Dependencies you have registered.
+
+**1. with Property Wrapper:**
+```swift
+class InjectedByPropertyWraper {
+    @MagicalInstance var someInstance: InsB
+    
+    ...
+    ...
+    ...
+}
+```
+
+**2. with global function:**
+
+```swift
+class InjectedByInit {
+    var dependency: Dependency
+    
+    init(dependency: Dependency = magicalInject(Dependency.self)) {
+        self.dependency = dependency
+    }
+}
+```
+
+or
+
+```swift
+class InjectedByInit {
+    var dependency: Dependency
+    
+    init(dependency: Dependency = magicalInject()) {
+        self.dependency = dependency
+    }
+}
