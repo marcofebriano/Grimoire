@@ -82,7 +82,7 @@ class InjectedByPropertyWraper {
 class InjectedByInit {
     var dependency: Dependency
     
-    init(dependency: Dependency = magicalInject(Dependency.self)) {
+    init(dependency: Dependency = magicalInject(of: Dependency.self)) {
         self.dependency = dependency
     }
 }
