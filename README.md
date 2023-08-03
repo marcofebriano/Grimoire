@@ -1,5 +1,7 @@
 # Grimoire
 
+Grimoire is Basic Dependency Injection with annotation. you will see the magic happen with this library.
+
 [![CI Status](https://img.shields.io/travis/marcofebriano/Grimoire.svg?style=flat)](https://travis-ci.org/marcofebriano/Grimoire)
 [![Version](https://img.shields.io/cocoapods/v/Grimoire.svg?style=flat)](https://cocoapods.org/pods/Grimoire)
 [![License](https://img.shields.io/cocoapods/l/Grimoire.svg?style=flat)](https://cocoapods.org/pods/Grimoire)
