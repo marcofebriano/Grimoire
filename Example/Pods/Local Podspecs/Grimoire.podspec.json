@@ -1,6 +1,6 @@
 {
   "name": "Grimoire",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "summary": "Basic Swift Dependency Injection Annotations",
   "description": "Grimoire is Basic Dependency Injection with Annotations. Why the name is Grimoire? so this framework will make your instance like a magical instance, and Grimoire is a list of magical instances that you register before.",
   "homepage": "https://github.com/marcofebriano/Grimoire",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/marcofebriano/Grimoire.git",
-    "tag": "1.2.1"
+    "tag": "1.2.2"
   },
   "swift_versions": "5.1",
   "platforms": {

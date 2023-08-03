@@ -44,6 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func registerInstance() {
+        GrimoireLog.show = true
         let grimoire = Grimoire.open
         grimoire
             .registerSingular(for: ProA.self, with: InstanceA())

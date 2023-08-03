@@ -1,5 +1,5 @@
 PODS:
-  - Grimoire (1.2.1)
+  - Grimoire (1.2.2)
 
 DEPENDENCIES:
   - Grimoire (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Grimoire: 0328448ac103f9cbb1a1a24798e92fe7467fb05e
+  Grimoire: 9a7869d05dcb0bc0f8e6815322bfa80ca4f4264f
 
 PODFILE CHECKSUM: 42d30725709ffc482c210be09af175281dc555a8
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1

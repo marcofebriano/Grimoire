@@ -13,6 +13,8 @@ public class Grimoire {
     
     public static var open = Grimoire()
     
+    public static var showLog: Bool = false
+    
     var mappedInstance: [String: InstanceProvider] = [:]
 
     init() { }
@@ -20,10 +22,10 @@ public class Grimoire {
     func resolve<T>(_ anyType: T.Type) -> T {
         let key = String(describing: anyType.self)
         guard let instance = mappedInstance[key] else {
-            fatalError("the Instance Provider with key: \(key) not found!")
+            fatalError(GrimoireLog.instanceNotFound(key: key))
         }
         guard let resolver = instance.resolveInstance() as? T else {
-            fatalError("the Instance Provider with key: \(key) not found!")
+            fatalError(GrimoireLog.instanceNotFound(key: key))
         }
         return resolver
     }
@@ -54,6 +56,7 @@ extension Grimoire {
     public func registerSingular<T>(for anyType: T.Type, _ instance: @escaping () -> T) -> Self {
         let key = String(describing: anyType.self)
         mappedInstance[key] = SingularInstance(resolver: instance)
+        GrimoireLog.showLog(for: .registerSingleton(key))
         return self
     }
     
@@ -62,6 +65,7 @@ extension Grimoire {
         anyTypes.forEach {
             let key = String(describing: $0.self)
             mappedInstance[key] = SingularInstance(resolver: instance)
+            GrimoireLog.showLog(for: .registerSingleton(key))
         }
         return self
     }
@@ -86,6 +90,7 @@ extension Grimoire {
     public func registerShadow<T>(for anyType: T.Type, _ instance: @escaping () -> T) -> Self {
         let key = String(describing: anyType.self)
         mappedInstance[key] = ShadowInstance(resolver: instance)
+        GrimoireLog.showLog(for: .registerTransient(key))
         return self
     }
     
@@ -94,6 +99,7 @@ extension Grimoire {
         anyTypes.forEach {
             let key = String(describing: $0.self)
             mappedInstance[key] = ShadowInstance(resolver: instance)
+            GrimoireLog.showLog(for: .registerTransient(key))
         }
         return self
     }

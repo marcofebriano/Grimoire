@@ -7,31 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		010178C3799118465AD1A1452C6860BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		09919AC34DC8AB7AD0C22818E8EDA7E7 /* IntanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEE836B5198CA1A83AD71939CF0F349 /* IntanceProvider.swift */; };
 		12813F6C370C6B8B82BC902A2D14D5CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		24D88DE8351B3F3DD5157EAFA2EE8ABB /* MagicalInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55F078AA06DE452628C2FED778108B9 /* MagicalInstance.swift */; };
+		1B7E670D45C548B425279D4D20461A3E /* IntanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA447B0A44119D1F767B245DA360C0C /* IntanceProvider.swift */; };
 		2EF503A4E74E0AE0B6E6208404BB080C /* Pods-Grimoire_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 488D9A1358E180757FC643EDD05A8685 /* Pods-Grimoire_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38CA6C15BE394F35A9480323DA20A7F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		40D7586BF2D84537C7B1EC96794F811F /* AutoInjectFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DC10B09EE1BD90B7248B3EEC68630 /* AutoInjectFunction.swift */; };
-		47A7BC7C5CE4824A2EBDD766711F3341 /* Grimoire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C3401D34FCDE204D3A3050E603E50D /* Grimoire.swift */; };
+		3F9EC4694F1C313F70C36E1FCF228656 /* AutoInjectFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BDF94D6623D7FB972F3035098776A /* AutoInjectFunction.swift */; };
+		65B38B500F0D31B671E5E8F8C0A88594 /* GrimoireLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1738FC96C2D4420E8FFAC0305DE00B /* GrimoireLog.swift */; };
 		7312108749149B9B80E21A094E27FE19 /* Pods-Grimoire_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DF13E971C8C2D43E0EF2314B238D69 /* Pods-Grimoire_Tests-dummy.m */; };
+		85CF43FB86D7606FB9D556BDCCBD6C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		955BD0452B1EAC5580AD552F4B2A483E /* Pods-Grimoire_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5243A2353BC2A3BC88750CDE8511C85 /* Pods-Grimoire_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E42E4B4BCC015FC438576F9EE35A316 /* PackageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E062ADFE491FD07984DE8B7097D2626 /* PackageProvider.swift */; };
-		A7CA4101B739ABECBF058DF477A75F9D /* Grimoire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5629D870ADA587BAF0A7F9225C863A /* Grimoire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B27D49EBB42A0701145C5E31A35B8701 /* Grimoire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EABDB683F6A6A1C3925B0420EBF63723 /* Grimoire-dummy.m */; };
+		998E89E9C87825E0AD008FCA0B288527 /* MagicalInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E0A55668C01037FBB9A23E0AFA0E3F /* MagicalInstance.swift */; };
+		99C6EF3F9DC7D096274D1EA40C61AF9B /* Grimoire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D0FA90503A5E56B7B0721FB959673 /* Grimoire.swift */; };
+		A12F7FAFB2FC9246386EF7CA07BA36A8 /* Grimoire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0B195E558690051632983602D41D88 /* Grimoire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D042570374DBEB534F3020970B9A21BB /* Grimoire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5580E369D37C0A4606B0773B7292B184 /* Grimoire-dummy.m */; };
+		DABCA25308D2A5190C5F229F75401205 /* PackageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D68F7D5C3A3EE019F73EDD1AB33BE9B /* PackageProvider.swift */; };
 		EAE7E00D43E4BF32833AA4239F346EE0 /* Pods-Grimoire_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0E34BC981D64E9D798194C52D59527 /* Pods-Grimoire_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		327B28457003C01F053BF0FF6C45CD65 /* PBXContainerItemProxy */ = {
+		3D1657DDF3B1203CD8CDAD8365D34FE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C9F259AA7314F996E61DBB9271D3D86D;
 			remoteInfo = Grimoire;
 		};
-		449163ABCFF709FD61B71686B8337615 /* PBXContainerItemProxy */ = {
+		B6722100D587860877785C581348BD47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -42,58 +43,59 @@
 
 /* Begin PBXFileReference section */
 		035FC62948FCE3915278D42E0BFC04FC /* Pods-Grimoire_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Grimoire_Tests-Info.plist"; sourceTree = "<group>"; };
-		0E062ADFE491FD07984DE8B7097D2626 /* PackageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PackageProvider.swift; path = Sources/Grimoire/PackageProvider.swift; sourceTree = "<group>"; };
 		13572C2249E3FBE82673ED21BA9931E8 /* Pods-Grimoire_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Grimoire_Example"; path = Pods_Grimoire_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D4AF6504E05E70FEF01C39AE4CF5CBC /* Grimoire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Grimoire.release.xcconfig; sourceTree = "<group>"; };
+		259D86B049529340F0EE12DBD8C897E6 /* Grimoire.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Grimoire.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2BBD8A31DDDCA8817678FA39B5AC963E /* Pods-Grimoire_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Grimoire_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E1738FC96C2D4420E8FFAC0305DE00B /* GrimoireLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrimoireLog.swift; path = Sources/Grimoire/GrimoireLog.swift; sourceTree = "<group>"; };
+		48687EA868DB01D3A0216A9ACA2C9E74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		488D9A1358E180757FC643EDD05A8685 /* Pods-Grimoire_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Grimoire_Example-umbrella.h"; sourceTree = "<group>"; };
 		4D9CEE6CE6A269273052199C401D0DC3 /* Pods-Grimoire_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Grimoire_Example-Info.plist"; sourceTree = "<group>"; };
-		51300705ED0CBE0F97C0E3B41D7E0F14 /* Grimoire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Grimoire-prefix.pch"; sourceTree = "<group>"; };
-		5AA78F1BCCF5F3AFA87A3B5CD2EFD34B /* Grimoire.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Grimoire.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5580E369D37C0A4606B0773B7292B184 /* Grimoire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Grimoire-dummy.m"; sourceTree = "<group>"; };
+		6242D8EC40E69C38C017B69A93280A38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		681180BFD3ECFFC0B96CB64A0A8AAFE4 /* Pods-Grimoire_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Grimoire_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6F5629D870ADA587BAF0A7F9225C863A /* Grimoire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Grimoire-umbrella.h"; sourceTree = "<group>"; };
-		6F5DC10B09EE1BD90B7248B3EEC68630 /* AutoInjectFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoInjectFunction.swift; path = Sources/Grimoire/AutoInjectFunction.swift; sourceTree = "<group>"; };
+		6ADA68607A3406CA0EBFCFBB4712D67E /* Grimoire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Grimoire.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7AEE836B5198CA1A83AD71939CF0F349 /* IntanceProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntanceProvider.swift; path = Sources/Grimoire/IntanceProvider.swift; sourceTree = "<group>"; };
+		7AA447B0A44119D1F767B245DA360C0C /* IntanceProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntanceProvider.swift; path = Sources/Grimoire/IntanceProvider.swift; sourceTree = "<group>"; };
 		7CDDE7841D390CB78D10DF32AF342D7C /* Pods-Grimoire_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Grimoire_Example.modulemap"; sourceTree = "<group>"; };
+		7D68F7D5C3A3EE019F73EDD1AB33BE9B /* PackageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PackageProvider.swift; path = Sources/Grimoire/PackageProvider.swift; sourceTree = "<group>"; };
 		89F1E6E5385F78BD0B083C90B38BBCF6 /* Pods-Grimoire_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Grimoire_Tests.modulemap"; sourceTree = "<group>"; };
+		915BDF94D6623D7FB972F3035098776A /* AutoInjectFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoInjectFunction.swift; path = Sources/Grimoire/AutoInjectFunction.swift; sourceTree = "<group>"; };
+		97E0A55668C01037FBB9A23E0AFA0E3F /* MagicalInstance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MagicalInstance.swift; path = Sources/Grimoire/MagicalInstance.swift; sourceTree = "<group>"; };
 		9B0E34BC981D64E9D798194C52D59527 /* Pods-Grimoire_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Grimoire_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB505E8DFFAE5CBA3E547CFA62CFBFA /* Grimoire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Grimoire.modulemap; sourceTree = "<group>"; };
 		A15638D5F2416C51C579ABDBBE239555 /* Pods-Grimoire_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Grimoire_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A29B8C75E8079C207D08E7C829CCE052 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A3C3401D34FCDE204D3A3050E603E50D /* Grimoire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Grimoire.swift; path = Sources/Grimoire/Grimoire.swift; sourceTree = "<group>"; };
-		A452314B90BD0AEDE5BCAED0FE32C713 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		ABAD1BC52CA37D29D11C272B5B6BD7DB /* Pods-Grimoire_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Grimoire_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B55F078AA06DE452628C2FED778108B9 /* MagicalInstance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MagicalInstance.swift; path = Sources/Grimoire/MagicalInstance.swift; sourceTree = "<group>"; };
-		C4888A437E18B6CDE13E51B4BD49FC0B /* Grimoire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Grimoire-Info.plist"; sourceTree = "<group>"; };
-		C6AFAC457566032D38D6C35A0C5F4BD4 /* Grimoire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Grimoire.modulemap; sourceTree = "<group>"; };
+		BC0D0FA90503A5E56B7B0721FB959673 /* Grimoire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Grimoire.swift; path = Sources/Grimoire/Grimoire.swift; sourceTree = "<group>"; };
+		BD0B195E558690051632983602D41D88 /* Grimoire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Grimoire-umbrella.h"; sourceTree = "<group>"; };
 		C72EE175179C6630804C05B244BF8E53 /* Pods-Grimoire_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Grimoire_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D2C7654DB8585733A78B1FD34A6A6402 /* Grimoire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Grimoire; path = Grimoire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D614C202AC85E5A547D90A82E560B0 /* Pods-Grimoire_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Grimoire_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D7A85416BD615C6AA0BD21C7558130D4 /* Grimoire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Grimoire-prefix.pch"; sourceTree = "<group>"; };
 		D7ADCB01D0A91317875BB0661BC71DF6 /* Pods-Grimoire_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Grimoire_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD60182D6E66B178C0F42318A97F328B /* Grimoire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Grimoire-Info.plist"; sourceTree = "<group>"; };
 		E1CFF12157DEFBC8432A12B05C60F810 /* Pods-Grimoire_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Grimoire_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E5243A2353BC2A3BC88750CDE8511C85 /* Pods-Grimoire_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Grimoire_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EABDB683F6A6A1C3925B0420EBF63723 /* Grimoire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Grimoire-dummy.m"; sourceTree = "<group>"; };
-		F45616BFA1755625D35C396D905057B4 /* Grimoire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Grimoire.debug.xcconfig; sourceTree = "<group>"; };
 		F49C43958CB69E1C798B9D4CB0188D50 /* Pods-Grimoire_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Grimoire_Tests"; path = Pods_Grimoire_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DF13E971C8C2D43E0EF2314B238D69 /* Pods-Grimoire_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Grimoire_Tests-dummy.m"; sourceTree = "<group>"; };
 		F7DBC7B26F18315D6DF6B27ACDCBE59F /* Pods-Grimoire_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Grimoire_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F7F26971B78F75125F9CCC0BA9644349 /* Grimoire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Grimoire.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5768B79D233122A010BFE126C2DD2B8B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				010178C3799118465AD1A1452C6860BC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		802891AB26D1B5C1C8A136E2E15B336F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				12813F6C370C6B8B82BC902A2D14D5CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BA17CAE9042D354FE6AB51CC8C000C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CF43FB86D7606FB9D556BDCCBD6C26 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,21 +110,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D5F937060092182B34E06BF9F0D7CDC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6AFAC457566032D38D6C35A0C5F4BD4 /* Grimoire.modulemap */,
-				EABDB683F6A6A1C3925B0420EBF63723 /* Grimoire-dummy.m */,
-				C4888A437E18B6CDE13E51B4BD49FC0B /* Grimoire-Info.plist */,
-				51300705ED0CBE0F97C0E3B41D7E0F14 /* Grimoire-prefix.pch */,
-				6F5629D870ADA587BAF0A7F9225C863A /* Grimoire-umbrella.h */,
-				F45616BFA1755625D35C396D905057B4 /* Grimoire.debug.xcconfig */,
-				1D4AF6504E05E70FEF01C39AE4CF5CBC /* Grimoire.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Grimoire";
-			sourceTree = "<group>";
-		};
 		0DC7D8A11429B47142CE62204F12DFEC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,12 +119,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1AD850271EC848CD6A02D3612D1FEA66 /* Pod */ = {
+		19F2072CADB4C6F0EB21C7AB6529B9A6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5AA78F1BCCF5F3AFA87A3B5CD2EFD34B /* Grimoire.podspec */,
-				A452314B90BD0AEDE5BCAED0FE32C713 /* LICENSE */,
-				A29B8C75E8079C207D08E7C829CCE052 /* README.md */,
+				9DB505E8DFFAE5CBA3E547CFA62CFBFA /* Grimoire.modulemap */,
+				5580E369D37C0A4606B0773B7292B184 /* Grimoire-dummy.m */,
+				DD60182D6E66B178C0F42318A97F328B /* Grimoire-Info.plist */,
+				D7A85416BD615C6AA0BD21C7558130D4 /* Grimoire-prefix.pch */,
+				BD0B195E558690051632983602D41D88 /* Grimoire-umbrella.h */,
+				6ADA68607A3406CA0EBFCFBB4712D67E /* Grimoire.debug.xcconfig */,
+				F7F26971B78F75125F9CCC0BA9644349 /* Grimoire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Grimoire";
+			sourceTree = "<group>";
+		};
+		1D8C66EF47FD784C02D1AE1B2B111841 /* Grimoire */ = {
+			isa = PBXGroup;
+			children = (
+				915BDF94D6623D7FB972F3035098776A /* AutoInjectFunction.swift */,
+				BC0D0FA90503A5E56B7B0721FB959673 /* Grimoire.swift */,
+				3E1738FC96C2D4420E8FFAC0305DE00B /* GrimoireLog.swift */,
+				7AA447B0A44119D1F767B245DA360C0C /* IntanceProvider.swift */,
+				97E0A55668C01037FBB9A23E0AFA0E3F /* MagicalInstance.swift */,
+				7D68F7D5C3A3EE019F73EDD1AB33BE9B /* PackageProvider.swift */,
+				55317F08DD26DD400F3A0E9E2D2F04C3 /* Pod */,
+				19F2072CADB4C6F0EB21C7AB6529B9A6 /* Support Files */,
+			);
+			name = Grimoire;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		55317F08DD26DD400F3A0E9E2D2F04C3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				259D86B049529340F0EE12DBD8C897E6 /* Grimoire.podspec */,
+				6242D8EC40E69C38C017B69A93280A38 /* LICENSE */,
+				48687EA868DB01D3A0216A9ACA2C9E74 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -158,14 +176,6 @@
 				F49C43958CB69E1C798B9D4CB0188D50 /* Pods-Grimoire_Tests */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		66B5A83C7EB62F6786C5FC4963FE8AD0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E23081CAC26C06364EA0C1C807B2A845 /* Grimoire */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		677E80E9103FA99E64909BFA06959293 /* Pods-Grimoire_Tests */ = {
@@ -205,7 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				66B5A83C7EB62F6786C5FC4963FE8AD0 /* Development Pods */,
+				EF01BDE3E3D2AE6933889EE1700C8FF5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				5832FAAAECE9A0F6F3F4209A1014717E /* Products */,
 				0DC7D8A11429B47142CE62204F12DFEC /* Targets Support Files */,
@@ -220,19 +230,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E23081CAC26C06364EA0C1C807B2A845 /* Grimoire */ = {
+		EF01BDE3E3D2AE6933889EE1700C8FF5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6F5DC10B09EE1BD90B7248B3EEC68630 /* AutoInjectFunction.swift */,
-				A3C3401D34FCDE204D3A3050E603E50D /* Grimoire.swift */,
-				7AEE836B5198CA1A83AD71939CF0F349 /* IntanceProvider.swift */,
-				B55F078AA06DE452628C2FED778108B9 /* MagicalInstance.swift */,
-				0E062ADFE491FD07984DE8B7097D2626 /* PackageProvider.swift */,
-				1AD850271EC848CD6A02D3612D1FEA66 /* Pod */,
-				0D5F937060092182B34E06BF9F0D7CDC /* Support Files */,
+				1D8C66EF47FD784C02D1AE1B2B111841 /* Grimoire */,
 			);
-			name = Grimoire;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,11 +257,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7112C446A8F6BE180959C45BBEFED96 /* Headers */ = {
+		9DB92C45D72CE5736F39E97C49073784 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7CA4101B739ABECBF058DF477A75F9D /* Grimoire-umbrella.h in Headers */,
+				A12F7FAFB2FC9246386EF7CA07BA36A8 /* Grimoire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +280,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				ECD72DA6494948A5C6892C9D2908ADD0 /* PBXTargetDependency */,
+				1675ABF74D2E6DF44E26CB856DBEE797 /* PBXTargetDependency */,
 			);
 			name = "Pods-Grimoire_Example";
 			productName = Pods_Grimoire_Example;
@@ -286,12 +289,12 @@
 		};
 		C9F259AA7314F996E61DBB9271D3D86D /* Grimoire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 484635873202904B94F6C7E97CFACCF4 /* Build configuration list for PBXNativeTarget "Grimoire" */;
+			buildConfigurationList = DB8704796D54A6E866AAC5FE97C48F3B /* Build configuration list for PBXNativeTarget "Grimoire" */;
 			buildPhases = (
-				A7112C446A8F6BE180959C45BBEFED96 /* Headers */,
-				080BC62D76A0EC10678BBFFE4445F843 /* Sources */,
-				5768B79D233122A010BFE126C2DD2B8B /* Frameworks */,
-				D6011AD99281860D3737788E0767FEF7 /* Resources */,
+				9DB92C45D72CE5736F39E97C49073784 /* Headers */,
+				D605DA92C23F092E61869C6576D08045 /* Sources */,
+				93BA17CAE9042D354FE6AB51CC8C000C /* Frameworks */,
+				0B5C9ADD05F4320C6773A6460202A117 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -314,7 +317,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0F84B315F47615B4F95C7D18C96A0F30 /* PBXTargetDependency */,
+				CCF04D5762722C5A272083629860B54C /* PBXTargetDependency */,
 			);
 			name = "Pods-Grimoire_Tests";
 			productName = Pods_Grimoire_Tests;
@@ -351,7 +354,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D6011AD99281860D3737788E0767FEF7 /* Resources */ = {
+		0B5C9ADD05F4320C6773A6460202A117 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,19 +378,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		080BC62D76A0EC10678BBFFE4445F843 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40D7586BF2D84537C7B1EC96794F811F /* AutoInjectFunction.swift in Sources */,
-				47A7BC7C5CE4824A2EBDD766711F3341 /* Grimoire.swift in Sources */,
-				B27D49EBB42A0701145C5E31A35B8701 /* Grimoire-dummy.m in Sources */,
-				09919AC34DC8AB7AD0C22818E8EDA7E7 /* IntanceProvider.swift in Sources */,
-				24D88DE8351B3F3DD5157EAFA2EE8ABB /* MagicalInstance.swift in Sources */,
-				9E42E4B4BCC015FC438576F9EE35A316 /* PackageProvider.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2A9D3680ECC1FE834BBE42087E86439C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,24 +394,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D605DA92C23F092E61869C6576D08045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9EC4694F1C313F70C36E1FCF228656 /* AutoInjectFunction.swift in Sources */,
+				99C6EF3F9DC7D096274D1EA40C61AF9B /* Grimoire.swift in Sources */,
+				D042570374DBEB534F3020970B9A21BB /* Grimoire-dummy.m in Sources */,
+				65B38B500F0D31B671E5E8F8C0A88594 /* GrimoireLog.swift in Sources */,
+				1B7E670D45C548B425279D4D20461A3E /* IntanceProvider.swift in Sources */,
+				998E89E9C87825E0AD008FCA0B288527 /* MagicalInstance.swift in Sources */,
+				DABCA25308D2A5190C5F229F75401205 /* PackageProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0F84B315F47615B4F95C7D18C96A0F30 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Grimoire_Example";
-			target = 6A58507CCF4A4F06145ACC30C99B4C85 /* Pods-Grimoire_Example */;
-			targetProxy = 449163ABCFF709FD61B71686B8337615 /* PBXContainerItemProxy */;
-		};
-		ECD72DA6494948A5C6892C9D2908ADD0 /* PBXTargetDependency */ = {
+		1675ABF74D2E6DF44E26CB856DBEE797 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Grimoire;
 			target = C9F259AA7314F996E61DBB9271D3D86D /* Grimoire */;
-			targetProxy = 327B28457003C01F053BF0FF6C45CD65 /* PBXContainerItemProxy */;
+			targetProxy = 3D1657DDF3B1203CD8CDAD8365D34FE4 /* PBXContainerItemProxy */;
+		};
+		CCF04D5762722C5A272083629860B54C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Grimoire_Example";
+			target = 6A58507CCF4A4F06145ACC30C99B4C85 /* Pods-Grimoire_Example */;
+			targetProxy = B6722100D587860877785C581348BD47 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		21BAFD705FBB1476034CAF901AC283BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ADA68607A3406CA0EBFCFBB4712D67E /* Grimoire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Grimoire/Grimoire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Grimoire/Grimoire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Grimoire/Grimoire.modulemap";
+				PRODUCT_MODULE_NAME = Grimoire;
+				PRODUCT_NAME = Grimoire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2539828CC278D255C0EA10086F7B323A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ABAD1BC52CA37D29D11C272B5B6BD7DB /* Pods-Grimoire_Example.debug.xcconfig */;
@@ -487,38 +522,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		4E9D382F5B8545840C63F732F9DEFEA5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D4AF6504E05E70FEF01C39AE4CF5CBC /* Grimoire.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Grimoire/Grimoire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Grimoire/Grimoire-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Grimoire/Grimoire.modulemap";
-				PRODUCT_MODULE_NAME = Grimoire;
-				PRODUCT_NAME = Grimoire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		61606E33B136A018A16B72F6BD6B0763 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -616,9 +619,9 @@
 			};
 			name = Release;
 		};
-		C5D2B7210DD6FF9EE5C00181E9829247 /* Debug */ = {
+		98F5B8EC8895352687FF05F7205C33DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F45616BFA1755625D35C396D905057B4 /* Grimoire.debug.xcconfig */;
+			baseConfigurationReference = F7F26971B78F75125F9CCC0BA9644349 /* Grimoire.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -642,10 +645,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -759,15 +763,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		484635873202904B94F6C7E97CFACCF4 /* Build configuration list for PBXNativeTarget "Grimoire" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5D2B7210DD6FF9EE5C00181E9829247 /* Debug */,
-				4E9D382F5B8545840C63F732F9DEFEA5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4A1CF1BBF3069CD882492C18A7704719 /* Build configuration list for PBXNativeTarget "Pods-Grimoire_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -782,6 +777,15 @@
 			buildConfigurations = (
 				38641169FF604944CB32BDD3AD111514 /* Debug */,
 				61606E33B136A018A16B72F6BD6B0763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8704796D54A6E866AAC5FE97C48F3B /* Build configuration list for PBXNativeTarget "Grimoire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BAFD705FBB1476034CAF901AC283BF /* Debug */,
+				98F5B8EC8895352687FF05F7205C33DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
