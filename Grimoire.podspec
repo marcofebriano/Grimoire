@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Grimoire'
-  s.version          = '1.2.2'
+  s.version          = '1.2.3'
   s.summary          = 'Basic Swift Dependency Injection Annotations'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'Sources/**/*.swift'
-  s.readme = 'https://github.com/marcofebriano/Grimoire/blob/main/README.md'
+  s.documentation_url = 'https://github.com/marcofebriano/Grimoire'
   
   # s.resource_bundles = {
   #   'Grimoire' => ['Grimoire/Assets/*.png']
