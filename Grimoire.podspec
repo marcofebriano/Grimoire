@@ -34,6 +34,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/**/*.swift'
   s.documentation_url = 'https://github.com/marcofebriano/Grimoire'
   s.readme = 'https://raw.githubusercontent.com/marcofebriano/Grimoire/main/README.md'
+  s.changelog = 'https://raw.githubusercontent.com/marcofebriano/Grimoire/main/README.md
   
   # s.resource_bundles = {
   #   'Grimoire' => ['Grimoire/Assets/*.png']
