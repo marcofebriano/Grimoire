@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Grimoire'
-  s.version          = '1.2.5'
+  s.version          = '1.2.6'
   s.summary          = 'Basic Swift Dependency Injection Annotations'
 
 # This description is used to generate tags and improve search results.
